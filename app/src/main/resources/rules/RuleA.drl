@@ -1,0 +1,12 @@
+package rules;
+
+import example.drools.models.Product;
+
+rule "Rule A"
+when
+    $product: Product(getName() == "Product A")
+then
+    System.out.println("[Rule A] triggered for: " + $product.getName());
+    $product.setAvailable(true);
+end
+    
