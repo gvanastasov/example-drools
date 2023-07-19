@@ -67,7 +67,7 @@ the rule engine would kick in and change that to `true`.
 ## Drools Rules
 
 The project includes a simple Drools rule that sets the `available` property of a new product to `true` by default.
-Rule DRL file: [app/src/main/resources/rules/RuleA.drl](Dummy Rule)
+Rule DRL file: [Dummy Rule](app/src/main/resources/rules/RuleA.drl)
 
 
 ## Contributing
