@@ -18,7 +18,7 @@ A simple demo java application with drools as a BRM.
 
 ## Introduction
 
-This project is a simple REST API built using Spring Boot that allows users to manage products. It incorporates Drools to apply rules when adding new products.
+This project is a simple REST API built using Spring Boot that allows users to manage products. It incorporates Drools to apply rules when adding new products. This is merely for demonstration purposes, so do not use as production grade solution.
 
 ## Features
 
@@ -56,7 +56,8 @@ To run the application, use the following command:
 ./gradlew bootRun
 ```
 
-Once the application is running, you can interact with the REST API using your preferred HTTP client (e.g., cURL, Postman
+Once the application is running, you can interact with the REST API using your preferred HTTP client (e.g., cURL, Postman etc.). Fetch the list of products via the GET endpoint, then try adding a new product with `available: false` and notice how
+the rule engine would kick in and change that to `true`.
 
 ## Endpoints
 
